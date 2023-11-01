@@ -1,0 +1,147 @@
+/* Шрифт Causten*/
+
+@font-face {
+	font-family: "causten-extralightobliqueRg";
+	src:
+		url("../fonts/causten/causten-extra-light-oblique-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-extra-light-oblique-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-lightregular";
+	src:
+		url("../fonts/causten/causten-light-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-light-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-lightobliqueregular";
+	src:
+		url("../fonts/causten/causten-light-oblique-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-light-oblique-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-mediumregular";
+	src:
+		url("../fonts/causten/causten-medium-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-medium-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-mediumobliqueregular";
+	src:
+		url("../fonts/causten/causten-medium-oblique-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-medium-oblique-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-regularregular";
+	src:
+		url("../fonts/causten/causten-regular-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-regular-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-regularobliqueregular";
+	src:
+		url("../fonts/causten/causten-regular-oblique-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-regular-oblique-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-semiboldregular";
+	src:
+		url("../fonts/causten/causten-semi-bold-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-semi-bold-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-semiboldobliqueRg";
+	src:
+		url("../fonts/causten/causten-semi-bold-oblique-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-semi-bold-oblique-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-thinregular";
+	src:
+		url("../fonts/causten/causten-thin-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-thin-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-thinobliqueregular";
+	src:
+		url("../fonts/causten/causten-thin-oblique-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-thin-oblique-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "causten-blackregular";
+	src:
+		url("../fonts/causten/causten-black-webfont.woff") format("woff2"),
+		url("../fonts/causten/causten-black-webfont.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Шрифт Core Sans C*/
+
+@font-face {
+	font-family: "Core Sans C 65";
+	src:
+		url("../fonts/core-sans-c/CoreSansC-65Bold.woff") format("woff2"),
+		url("../fonts/core-sans-c/CoreSansC-65Bold.woff2") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Core Sans C 55";
+	src:
+		url("../fonts/core-sans-c/CoreSansC-55Medium.woff") format("woff2"),
+		url("../fonts/core-sans-c/CoreSansC-55Medium.woff2") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Core Sans C 75";
+	src:
+		url("../fonts/core-sans-c/CoreSansC-75ExtraBold.woff") format("woff2"),
+		url("../fonts/core-sans-c/CoreSansC-75ExtraBold.woff2") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Core Sans C 45";
+	src:
+		url("../fonts/core-sans-c/CoreSansC-45Regular.woff") format("woff2"),
+		url("../fonts/core-sans-c/CoreSansC-45Regular.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
