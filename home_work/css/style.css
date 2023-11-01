@@ -1,0 +1,130 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+body {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	background-color: #1b1c20;
+	padding: 20px 0px 20px 0px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 15px 0px 30px;
+}
+.header_title {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.header_subtitle {
+	font-size: 18px;
+	color: #1cc91c;
+}
+.main {
+	background-color: #2c2d32;
+	color: #fff;
+	padding: 30px 0px;
+	flex: 1 1 auto;
+}
+.container {
+}
+.main_list {
+	border-left: 1px solid #ffffff86;
+	padding-left: 30px;
+}
+.maim_link {
+	padding-bottom: 15px;
+}
+.main_task {
+	color: #fff;
+}
+
+.footer {
+	padding: 20px 0px;
+	background-color: #1b1c20;
+}
+.footer_title {
+	font-size: 18px;
+}
