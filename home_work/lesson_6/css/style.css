@@ -1,0 +1,124 @@
+/* Підключення шрифтів */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,regular,500,600,700,&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.consulting {
+	font-family: "Inter", sans-serif;
+	max-width: 692px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+.image-consulting {
+	margin-top: 40px;
+	margin-bottom: 23px;
+}
+.image-consulting img {
+	width: 100%;
+}
+.consulting-content {
+	margin-bottom: 40px;
+}
+.title-consulting {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+.consulting-block {
+}
+.consulting-block p {
+	line-height: 146.187%;
+}
+.consulting-text {
+	line-height: 146.187%;
+	margin-bottom: 40px;
+}
+.consulting-sub-title {
+	font-family: "Poppins", sans-serif;
+	color: #6b77e5;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 10px;
+}
+.consulting-benefits {
+	margin-bottom: 50px;
+}
+.consulting-benefits-image {
+	display: inline-block;
+	vertical-align: top;
+}
+.consulting-benefits-info {
+	display: inline-block;
+	width: 50%;
+	padding-left: 30px;
+}
+.consulting-benefits-info p {
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 24px;
+	color: #40ddb6;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%;
+}
+.consulting-benefits-sub-title {
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 15px;
+	color: #37393f;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 127%;
+}
+
+.consulting-benefits-list {
+}
+.consulting-benefits-link {
+	margin-bottom: 35px;
+	line-height: normal;
+}
+
+.jewellery {
+	font-family: "Inter", sans-serif;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.jewellery-content {
+	padding-top: 21px;
+	max-width: 563px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.jewellery-content p {
+	color: #474747;
+	font-size: 20px;
+	line-height: 180%;
+}
+h4 {
+	color: #d06b00;
+	font-size: 28px;
+	margin-bottom: 13px;
+}
+h5 {
+	font-family: "DM Serif Text", serif;
+	color: #0e333d;
+	font-size: 59px;
+	line-height: 146.5%;
+	margin-bottom: 25px;
+}
+.jewellery-img {
+	display: inline-block;
+	vertical-align: top;
+}
+.jewellery-img-1 {
+	padding: 0px 20px 0px 0px;
+}

@@ -1,0 +1,21 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/*Основні стилі*/
+h1.title {
+	color: orange;
+}
+.title {
+	color: green;
+}
+p.some-p {
+	color: indigo;
+}
+
+p {
+	color: red;
+}
+
+* {
+	color: blue;
+}
