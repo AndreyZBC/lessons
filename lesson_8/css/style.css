@@ -1,0 +1,451 @@
+/*Підключення шрифтів*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,regular,500,600,700,&display=swap");
+
+/*Підключення шрифтів в ручну*/
+@import url("fonts.css");
+
+/*Скидання стилів*/
+@import url("reset.css");
+
+/*Основні стилі*/
+.consulting-business {
+	padding: 50px 15px 50px 15px;
+	max-width: 704px;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+.consulting-business-pre-title {
+	margin-bottom: 16px;
+	color: #37393f;
+	font-weight: 500;
+	padding-left: 18px;
+	background-image: url("../img/consulting-icon-1.svg");
+	background-repeat: no-repeat;
+	background-position: 0 6px;
+	line-height: 1.46;
+}
+.consulting-business-title {
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	max-width: 431px;
+}
+.consulting-business-text {
+	line-height: 1.46;
+	margin-bottom: 20px;
+}
+.consulting-business-text p {
+	margin-bottom: 15px;
+}
+.consulting-business-list {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	font-size: 20px;
+	margin-bottom: 43px;
+	line-height: 33px;
+}
+.consulting-business-link {
+	margin-bottom: 23px;
+	padding-left: 35px;
+	background: url("../img/consulting-icon-2.svg") 0 3px no-repeat;
+}
+.consulting-business-block {
+	margin-bottom: 37px;
+}
+.consulting-business-experience {
+	background: url("../img/consulting-icon-3svg.svg") 32px 32px no-repeat;
+	border: 1px solid #e3e3e3;
+	max-width: 296px;
+	display: inline-block;
+	padding: 32px 32px 32px 90px;
+	margin-right: 21px;
+}
+.consulting-business-experience-title {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.consulting-business-experience-sub-title {
+	font-size: 16px;
+	line-height: 1.35;
+}
+.consulting-business-awards {
+	background: url("../img/consulting-icon-4.svg") 32px 32px no-repeat;
+	border: 1px solid #e3e3e3;
+	max-width: 296px;
+	display: inline-block;
+	padding: 32px 37px 32px 90px;
+}
+.consulting-business-awards-title {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.consulting-business-awards-sub-title {
+	font-size: 16px;
+	line-height: 1.35;
+}
+.consulting-business-button {
+	background-color: #6b77e5;
+	padding: 22px 27px;
+	max-width: 184px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+}
+
+.consulting-project {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 50px 15px 50px 15px;
+	font-family: "Inter", sans-serif;
+	color: #7d7d7d;
+	font-size: 18px;
+}
+.consulting-project-header {
+	text-align: center;
+	max-width: 852px;
+	margin: 0 auto;
+}
+.consulting-project-pre-title {
+	font-weight: 500;
+	color: #37393f;
+	line-height: 1.46;
+	margin-bottom: 14px;
+	background: url("../img/consulting-icon-1.svg") 0 6px no-repeat;
+	padding-left: 18px;
+	display: inline-block;
+}
+.consulting-project-title {
+	color: #37393f;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 14px;
+	font-family: "Poppins", sans-serif;
+}
+.consulting-project-text {
+	line-height: 1.46;
+	margin-bottom: 47px;
+}
+.consulting-project-product {
+	margin-bottom: 58px;
+	font-size: 0;
+}
+.consulting-category-title {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+.consulting-category-date {
+	font-size: 14px;
+	line-height: 1.46;
+	background: url("../img/consulting-project-icon.svg") 0 center no-repeat;
+	padding-left: 25px;
+}
+.consulting-category-img-1 {
+	background-image: url("../img/consulting-image-1.png");
+	background-repeat: no-repeat;
+	min-width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+.consulting-category-img-2 {
+	background: url("../img/consulting-image-2.png") no-repeat;
+	min-width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+.consulting-category-img-3 {
+	background: url("../img/consulting-image-3.png") no-repeat;
+	min-width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+.consulting-category-img-4 {
+	background: url("../img/consulting-image-4.png") no-repeat;
+	min-width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+.consulting-category-img-5 {
+	background: url("../img/consulting-image-5.png") no-repeat;
+	min-width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+.consulting-category-img-6 {
+	background: url("../img/consulting-image-6.png") no-repeat;
+	min-width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+.consulting-category-1 {
+	display: inline-block;
+	margin-right: 34px;
+}
+.consulting-category-2 {
+	display: inline-block;
+	margin-right: 34px;
+}
+.consulting-category-3 {
+	display: inline-block;
+}
+.consulting-category-4 {
+	display: inline-block;
+	margin-right: 34px;
+}
+.consulting-category-5 {
+	display: inline-block;
+	margin-right: 34px;
+}
+.consulting-category-6 {
+	display: inline-block;
+}
+
+.euphoria {
+	font-family: "causten-regularregular";
+	padding: 50px 0px 50px 21px;
+	max-width: 1237px;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #807d7e;
+	line-height: 33.5px;
+	letter-spacing: 0.4px;
+}
+.euphoria-title {
+	font-family: "Core Sans C 65";
+	color: #3c4242;
+	font-size: 28px;
+	margin-bottom: 30px;
+	letter-spacing: 0.56px;
+	line-height: 1.19;
+	background-image: url("../img/euphoria-icon.svg");
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	margin-left: -21px;
+	padding-left: 21px;
+}
+.euphoria-sub-title {
+	font-family: "Core Sans C 65";
+	color: #807d7e;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 33.5px;
+}
+.euphoria-text {
+	margin-bottom: 25px;
+}
+
+.euphoria-text span {
+	font-weight: 700;
+}
+.euphoria-text p {
+	margin-bottom: 20px;
+}
+
+.euphoria-link {
+	font-family: "Core Sans C 65";
+}
+
+.euphoria-fashion {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 50px 15px 80px 15px;
+	font-size: 0;
+}
+.euphoria-fashion-block {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 614px;
+	min-height: 640px;
+	background: url("../img/euphoria-fashion-1.png") center / cover no-repeat;
+	padding: 183px 74px 174px 74px;
+}
+.euphoria-fashion-title {
+	font-family: "Core Sans C 65";
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47; /* 147.059% */
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.euphoria-fashion-text {
+	font-family: "causten-extralightobliqueRg";
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+.euphoria-fashion-button {
+	display: inline-block;
+	padding: 12px 44px;
+	border-radius: 8px;
+	background: #fff;
+}
+.euphoria-fashion-button a {
+	color: #3c4242;
+	text-align: center;
+	font-family: "causten-semiboldregular";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+}
+.euphoria-fashion-image {
+	display: inline-block;
+	vertical-align: top;
+}
+.euphoria-fashion-image img {
+	max-height: 640px;
+}
+
+.test-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 15px 50px 15px;
+	color: #6b77e5;
+	font-size: 24px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.cards {
+	padding: 50px 0;
+	font-size: 0;
+	margin: 0 -30px -30px 0;
+}
+.card-item {
+	width: 33.333%;
+	display: inline-block;
+	font-size: 16px;
+	color: #040404;
+	padding: 0 30px 30px 0;
+}
+.card-body-1 {
+	outline: 2px solid black;
+	background: green;
+	padding: 50px 50px;
+	/* background-color: transparent; */
+}
+
+.card-body-2 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+}
+
+.card-body-3 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background: linear-gradient(180deg, rgba(2, 139, 254, 1) 19%, rgba(241, 255, 0, 1) 100%);
+}
+.card-body-4 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	font-size: 14px;
+}
+.card-body-5 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: repeat-x;
+	font-size: 14px;
+}
+.card-body-6 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: repeat-y;
+	font-size: 14px;
+}
+.card-body-7 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-body-8 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.card-body-9 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.card-body-10 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	font-size: 14px;
+}
+.card-body-11 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.card-body-12 {
+	outline: 2px solid black;
+	padding: 50px 50px;
+	background-image: url("../img/consulting-icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 11px;
+}
+.background-attachment {
+	outline: 2px solid black;
+	padding: 20px;
+	background-image: url("../img/lake-2535706_1280.jpg");
+	width: 1200px;
+	height: 430px;
+	background-attachment: fixed;
+	margin-bottom: 50px;
+}
+.test-title {
+	color: #6b77e5;
+	font-size: 24px;
+	text-align: center;
+}
+.background {
+	outline: 2px solid black;
+	padding: 20px;
+	background: url("../img/lake-2535706_1280.jpg") center / contain no-repeat scroll;
+	width: 1200px;
+	height: 600px;
+}
+.background-title {
+	color: #6b77e5;
+	font-size: 24px;
+	text-align: center;
+}
