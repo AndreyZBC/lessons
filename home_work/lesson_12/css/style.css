@@ -1,0 +1,310 @@
+/* Підключення шрифтів */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,regular,500,600,700,&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.header {
+	width: 100%;
+	font-size: 0;
+	color: #37393f;
+	font-family: "Inter", sans-serif;
+	background-color: #fff;
+}
+.header--fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.header__container {
+	margin: 0 auto;
+	max-width: 1250px;
+	padding: 20px 15px 20px 15px;
+}
+.consulting-header {
+}
+.consulting-header__logo {
+	margin-right: 195px;
+	vertical-align: middle;
+}
+.consulting-header__menu {
+	margin-right: 40px;
+	display: inline-block;
+}
+.menu-consulting {
+}
+
+.menu-consulting__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 40px;
+	font-size: 18px;
+	position: relative;
+}
+
+.menu-consulting__link {
+	display: inline-block;
+}
+.menu-consulting__link:hover {
+	color: #3baf92;
+	text-decoration: underline;
+}
+.menu-consulting__item--dropdawn::after {
+	content: "";
+	background: url("../img/header/icon.svg") no-repeat;
+	display: inline-block;
+	width: 10px;
+	height: 8px;
+	position: absolute;
+	top: 6px;
+	left: 57px;
+}
+.menu-consulting__item:last-child {
+	margin-right: 0;
+}
+.menu-consulting__item:hover .sub-menu {
+	visibility: visible;
+}
+
+.sub-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding-top: 5px;
+	color: #000000;
+	width: 120px;
+	visibility: hidden;
+}
+
+.sub-menu__item {
+	background-color: #6b77e5e1;
+	position: relative;
+}
+.sub-menu__item:hover .sub-menu-side {
+	visibility: visible;
+}
+.sub-menu__link {
+	display: inline-block;
+	padding: 8px 5px;
+}
+.sub-menu__link:hover {
+	color: #40ddb6;
+	text-decoration: underline;
+}
+
+.sub-menu-side {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 120px;
+	color: #000000;
+	padding-left: 3px;
+	visibility: hidden;
+}
+.sub-menu-side__item {
+	background-color: #6b77e5e1;
+	position: relative;
+}
+.sub-menu-side__item:hover .menu {
+	visibility: visible;
+}
+.sub-menu-side__link {
+	display: inline-block;
+	padding: 8px 5px;
+}
+.sub-menu-side__link:hover {
+	color: #40ddb6;
+	text-decoration: underline;
+}
+
+.menu {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 120px;
+	padding-left: 3px;
+	color: #000000;
+	visibility: hidden;
+}
+.menu__item {
+	background-color: #6b77e5e1;
+}
+.menu__link {
+	display: inline-block;
+	padding: 8px 5px;
+}
+.menu__link:hover {
+	color: #40ddb6;
+	text-decoration: underline;
+}
+
+.consulting-header__button {
+	display: inline-block;
+	padding: 21px 35px;
+	background-color: #6b77e5;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.consulting-header__button:hover {
+	background-color: #40ddb6;
+	color: #000000;
+	text-decoration: underline;
+}
+.main {
+}
+
+.main__container {
+	margin: 0 auto;
+	max-width: 1250px;
+	padding: 0px 15px;
+}
+.consulting-section {
+	font-size: 0;
+	padding: 250px 0px 0px 0px;
+	margin: 0 -30px -30px 0;
+}
+.consulting-card {
+}
+.consulting-card__body {
+	width: 33.333%;
+	display: inline-block;
+	font-size: 16px;
+	color: #000000;
+	padding: 0 30px 30px 0;
+	position: relative;
+}
+.consulting-card__body:hover .card__sociale {
+	visibility: visible;
+}
+.consulting-card__body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 93%;
+	height: 95%;
+	background-color: rgba(107, 119, 229, 0.7);
+	visibility: hidden;
+}
+
+.consulting-card__body:hover::before {
+	visibility: visible;
+}
+.card {
+}
+
+.card__image {
+	width: 386px;
+	height: 532px;
+}
+.card__image ::before {
+}
+.card__image img {
+	width: 386px;
+	height: 532px;
+}
+.card__sociale {
+	font-size: 0;
+	position: absolute;
+	left: 107.5px;
+	top: 241px;
+	visibility: hidden;
+}
+.sociale-item {
+}
+.sociale-item__link {
+	margin-right: 13px;
+}
+.sociale-item__link:last-child {
+	margin-right: 0;
+}
+.sociale-item__link img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.card__body {
+	background-color: #fff;
+	padding: 24px;
+	position: absolute;
+	left: 22px;
+	top: 408px;
+	min-width: 341px;
+}
+.card__title {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+.card__text {
+	color: #7d7d7d;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 135.187%;
+}
+
+.footer {
+}
+
+
+/* Практика */
+
+.main__test{
+	margin: 0 auto;
+	max-width: 1250px;
+	padding: 100px 15px 100px 15px;
+}
+
+.main__test p{
+	font-weight: 400;
+}
+
+.test-main__title{
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.test-main {
+	text-align: center;
+	font-weight: 700;
+}
+
+.test-main__1 {
+	background-color: #6b77e5;
+	padding: 40px 30px ;
+	font-size: 30px;
+	color: #fff;
+}
+.test-main__2 {
+	background-color: #40ddb6;
+	padding: 40px 30px ;
+	position: sticky;
+	left: 0;
+	top: 100px;
+	font-size: 30px;
+	color: #fff;
+	width: 100%;
+}
+.test-main__3 {
+	background-color: rgba(107, 119, 229, 0.7);
+	padding: 40px 30px ;
+	font-size: 30px;
+	color: #fff;
+	position: sticky;
+	left: 0;
+	top: 100px;
+}
