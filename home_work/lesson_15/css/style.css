@@ -1,0 +1,478 @@
+/* Підключення шрифтів */
+
+/*Підключення шрифтів в ручну*/
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0px 15px 0px 15px;
+}
+.header {
+	font-family: "Causten";
+	background-color: #fff;
+	min-height: 110px;
+	border-bottom: 1px solid #bebcbd;
+	padding: 34px 0px 31px 0px;
+	line-height: 1.2;
+	font-weight: 500;
+}
+.header--fixed {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 60px;
+}
+.header__navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1 1 auto;
+}
+
+.header__search {
+	display: inline-flex;
+	padding: 12px 48px;
+	border-radius: 8px;
+	background-color: #f6f6f6;
+	color: #807d7e;
+	font-weight: 500;
+	font-size: 18px;
+	flex: 0 0 184px;
+	gap: 12px;
+	align-items: center;
+}
+.header__search:hover {
+	background-color: #efecdc;
+	transition: all 0.4s;
+}
+.header__language {
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+	position: relative;
+	padding: 5px 36px 5px 0px;
+	display: flex;
+	align-items: center;
+	gap: 19px;
+}
+.header__language:hover {
+	text-decoration: underline;
+}
+
+.header__language::after {
+	content: "";
+	width: 10px;
+	height: 5px;
+	background: url("../img/header/down-arrow.svg") no-repeat;
+}
+.header__language:hover::after {
+	transform: rotate(180deg);
+	transition: all 0.3s;
+}
+
+.header__language:hover .language__list {
+	visibility: visible;
+}
+
+.language__menu {
+}
+.language__list {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	visibility: hidden;
+	width: 206px;
+	border: 1px solid #000;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.language__item {
+}
+.language__link {
+	padding: 5px 5px;
+}
+.language__link:hover {
+	text-decoration: underline;
+}
+.header__body {
+	display: flex;
+	align-items: center;
+	gap: 29px;
+}
+.header__button-login {
+	border-radius: 8px;
+	background-color: #8a33fd;
+	text-align: center;
+	padding: 12px 48px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.header__button-login:hover {
+	background-color: #651ac7;
+	transition: all 0.4s;
+}
+.header__button-sign-up {
+	border-radius: 8px;
+	border: 1px solid #3c4242;
+	text-align: center;
+	padding: 12px 48px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #8a33fd;
+}
+.header__button-sign-up:hover {
+	background-color: #8a33fd;
+	transition: all 0.4s;
+	color: #fff;
+}
+.main {
+}
+.main--margin {
+	margin-top: 110px;
+}
+.categories {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.categories__container {
+}
+.categories__title {
+	font-family: "CoreSansC";
+	margin-bottom: 70px;
+	padding-left: 26px;
+	color: #3c4242;
+	font-size: 34px;
+	line-height: 33.5px;
+	letter-spacing: 0.68px;
+	position: relative;
+	font-weight: 600;
+}
+.categories__title::before {
+	content: "";
+	position: absolute;
+	top: 1.5px;
+	left: 0;
+	width: 6px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #8a33fd;
+}
+.products {
+	display: flex;
+	margin: 0px -25px;
+	flex-wrap: wrap;
+	row-gap: 50px;
+	font-family: "Causten";
+}
+.products__item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.products__column {
+	padding: 0px 25px;
+	flex: 0 0 25%;
+}
+.products__image {
+	border-radius: 10px;
+	overflow: hidden;
+	height: 100%;
+}
+.products__image img {
+	width: 100%;
+	transform: scale(1.01);
+	transition: all 0.4s ease;
+}
+.products__image img:hover {
+	width: 100%;
+	transform: scale(1.03);
+	transition: all 0.4s ease;
+}
+.products__section {
+	display: flex;
+	flex-grow: 1;
+}
+.products__body {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.products__title {
+	flex-grow: 1;
+	font-weight: 700;
+	color: #2a2f2f;
+	font-size: 17.875px;
+	letter-spacing: -0.715px;
+	line-height: 1.5;
+}
+.products__title a:hover {
+	text-decoration: underline;
+}
+.products__text {
+	font-weight: 500;
+	color: #7f7f7f;
+	font-size: 13.407px;
+	letter-spacing: -0.536px;
+	line-height: 1.9;
+}
+.products__arrow {
+	min-height: 14px;
+	flex: 0 0 18px;
+	background: url("../img/main-categories/arrow-product.svg") center no-repeat;
+}
+
+.wishlist {
+	padding: 50px 0px;
+}
+.wishlist__container {
+	max-width: 933px;
+}
+.wishlist__title {
+	font-family: "CoreSansC";
+	color: #3c4242;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 33.5px;
+	letter-spacing: 0.56px;
+	margin-bottom: 50px;
+}
+
+.wishlist__list {
+	font-family: "Causten";
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.wishlist__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 36px;
+}
+.card {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #edeef2;
+}
+.card__cancel {
+	background: url("../img/main-wishlist/close-icon.svg") center no-repeat;
+	width: 18px;
+	height: 18px;
+}
+
+.card__link-image {
+	border-radius: 4px;
+	width: 100%;
+	transition: all 20s ease;
+	flex: 0 0 110px;
+	overflow: hidden;
+}
+.card__link-image img:hover {
+	width: 100%;
+	transform: scale(1.04);
+	transition: all 0.4s ease;
+}
+.products__image img {
+	width: 100%;
+}
+.products__image img:hover {
+	width: 100%;
+}
+.card__info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+	flex-grow: 1;
+}
+.info {
+	font-size: 22px;
+	color: #3c4242;
+	line-height: 1.2;
+	letter-spacing: 0.44px;
+	font-weight: 700;
+}
+.info__link-name {
+}
+.info__link-name:hover {
+	text-decoration: underline;
+}
+.info__color {
+}
+.info__color span {
+	color: #807d7e;
+	font-weight: 500;
+}
+.info__quantity {
+}
+.info__quantity span {
+	color: #807d7e;
+	font-weight: 500;
+}
+.card__price {
+	color: #807d7e;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 0.44px;
+}
+.card__link-to-cart {
+	border-radius: 8px;
+	background-color: #8a33fd;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.2;
+	padding: 14px 28px;
+}
+.card__link-to-cart:hover {
+	background-color: #651ac7;
+	transition: all 0.4s;
+}
+
+.page-orders {
+	padding: 50px 0px;
+	font-family: "Causten";
+}
+.page-orders__container {
+	max-width: 925px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.orders__body {
+	border-radius: 8px;
+	background-color: #f6f6f6;
+	color: #807d7e;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	padding: 28px 47px;
+	display: flex;
+}
+.orders__body span {
+	color: #bebcbd;
+	font-size: 14px;
+	font-weight: 400;
+}
+.orders__info {
+	flex: 1 0 auto;
+}
+.info-order {
+	display: flex;
+	flex-direction: column;
+	row-gap: 7px;
+}
+.info-order__link {
+	color: #3c4242;
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.info-order__link:hover {
+	text-decoration: underline;
+}
+.info-order__date {
+}
+.info-order__delivery-date {
+}
+.orders__information {
+}
+.information-orders {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	row-gap: 7px;
+}
+.information-orders__status {
+}
+.information-orders__payment {
+}
+
+.orders__detail {
+}
+.detail {
+	font-weight: 600;
+	color: #3c4242;
+	line-height: 1.2;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 25px;
+	border-bottom: 1px solid #edeef2;
+	padding-bottom: 30px;
+}
+.detail__image {
+}
+.detail__info {
+}
+.detail__info span {
+	color: #bebcbd;
+}
+.info-item {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+.info-item__link-name {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.info-item__link-name:hover {
+	text-decoration: underline;
+}
+.info-item__color {
+}
+.info-item__quantity {
+}
+.info-item__total {
+	color: #807d7e;
+}
+.detail__button {
+	padding: 14px 28px;
+	align-items: center;
+	border-radius: 8px;
+	background-color: #8a33fd;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.detail__button:hover {
+	background-color: #651ac7;
+	transition: all 0.4s;
+}
+.footer {
+	background-color: #99999967;
+	padding: 20px;
+	text-align: center;
+	font-family: "Causten";
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 1.2;
+	color: #6b78e5;
+}
+.footer span {
+	color: #00be8f;
+}
