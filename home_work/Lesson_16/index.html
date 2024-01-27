@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">FormS</header>
+		<main class="page">
+			<div class="page__container">
+				<h1 class="page__title">My Info</h1>
+				<div class="page__sub-title">Add Address</div>
+				<form class="form" action="#" method="GET" enctype="multipart/form-data">
+					<div class="form__item">
+						<label for="name">First Name*</label>
+						<input id="name" class="form__name" tabindex="1" minlength="3" required name="name"
+							placeholder="First Name" type="text">
+					</div>
+					<div class="form__item">
+						<label for="last-name">Last Name*</label>
+						<input id="last-name" class="form__last-name" tabindex="2" minlength="3" required name="last-name"
+							placeholder="Last Name" type="text">
+					</div>
+					<div class="form__item">
+						<label for="country">Country / Region*</label>
+						<input id="country" class="form__residence" tabindex="3" required name="country"
+							placeholder="Country / Region" type="text">
+					</div>
+					<div class="form__item">
+						<label for="company">Company Name</label>
+						<input id="company" class="form__work" tabindex="4" name="company" placeholder="Company (optional)"
+							type="text">
+					</div>
+					<div class="form__item">
+						<label for="street">Street Address*</label>
+						<input id="street" class="form__street" tabindex="5" required name="street"
+							placeholder="House number and street name" type="text">
+					</div>
+					<div class="form__item">
+						<label for="apartment">Apt, suite, unit</label>
+						<input id="apartment" class="form__apartment" tabindex="6" name="apartment"
+							placeholder="apartment, suite, unit, etc. (optional)" type="text">
+					</div>
+					<div class="form__item">
+						<label for="city">City*</label>
+						<select name="city" id="city" tabindex="7" required class="form__city">
+							<option value="">Town / City</option>
+							<option value="01">New York City</option>
+							<option value="02">Los Angeles</option>
+							<option value="03">San Francisco</option>
+							<option value="04">Washington</option>
+						</select>
+					</div>
+					<div class="form__item">
+						<label for="state">State*</label>
+						<input id="state" class="form__state" tabindex="8" required name="state" placeholder="State"
+							type="text">
+					</div>
+					<div class="form__item">
+						<label for="phone">Phone*</label>
+						<input id="phone" class="form__phone" tabindex="9" required name="phone" placeholder="Phone"
+							type="tel">
+					</div>
+					<div class="form__item">
+						<label for="postal-code">Postal Code*</label>
+						<input id="postal-code" class="form__postal-code" tabindex="10" required name="postal-code"
+							placeholder="Postal Code" type="number">
+					</div>
+					<div class="form__item">
+						<label for="instruction">Delivery Instruction</label>
+						<textarea id="instruction" class="form__instruction" tabindex="11" name="instruction"
+							placeholder="Delivery Instruction"></textarea>
+					</div>
+					<div class="form__checkboxc checkbox">
+						<div class="checkbox__body">
+							<input class="checkbox__input" id="check" name="delivery" type="checkbox">
+							<label class="checkbox__label" for="check">Set as default shipping address</label>
+						</div>
+						<div class="checkbox__body">
+							<input class="checkbox__input" checked id="check-1" name="billing" type="checkbox">
+							<label class="checkbox__label" for="check-1">Set as default billing address</label>
+						</div>
+					</div>
+					<div class="form__btn btn">
+						<button class="btn__save" type="submit">Save</button>
+						<button class="btn__cancle" type="reset">Cancel</button>
+					</div>
+				</form>
+			</div>
+			<div class="page__section section-page">
+				<div class="section-page__container">
+					<h2 class="section-page__title">Check Out</h2>
+					<div class="section-page__sub-title">Billing Details</div>
+					<form action="#" class="form-check" method="GET" enctype="multipart/form-data">
+						<div class="form-check__item">
+							<label for="name-1">First Name*</label>
+							<input id="name-1" class="form-check__name-1" tabindex="1" minlength="3" required name="name-1"
+								placeholder="First Name" type="text">
+						</div>
+						<div class="form-check__item">
+							<label for="last-name-1">Last Name*</label>
+							<input id="last-name-1" class="form-check__last-name-1" tabindex="2" minlength="3" required
+								name="last-name-1" placeholder="Last Name" type="text">
+						</div>
+						<div class="form-check__item">
+							<label for="country-1">Country / Region*</label>
+							<input id="country-1" class="form-check__residence" tabindex="3" required name="country-1"
+								placeholder="Country / Region" type="text">
+						</div>
+						<div class="form-check__item">
+							<label for="company-1">Company Name</label>
+							<input id="company-1" class="form-check__work" tabindex="4" name="company-1"
+								placeholder="Company (optional)" type="text">
+						</div>
+						<div class="form-check__item">
+							<label for="street-1">Street Address*</label>
+							<input id="street-1" class="form-check__street" tabindex="5" required name="street-1"
+								placeholder="House number and street name" type="text">
+						</div>
+						<div class="form-check__item">
+							<label for="apartment-1">Apt, suite, unit</label>
+							<input id="apartment-1" class="form-check__apartment" tabindex="6" name="apartment-1"
+								placeholder="apartment, suite, unit, etc. (optional)" type="text">
+						</div>
+						<div class="form-check__body">
+							<div class="form-check__item">
+								<label for="city-1">City*</label>
+								<input id="city-1" name="city-1" tabindex="7" required placeholder="Town / City"
+									class="form-check__city" type="text">
+							</div>
+							<div class="form-check__item">
+								<label for="state-1">State*</label>
+								<select name="state-1" id="state-1" tabindex="8" required class="form-check__state">
+									<option value="">State</option>
+									<option value="01">Washington</option>
+									<option value="02">Texas</option>
+									<option value="03">California</option>
+									<option value="04">Michigan</option>
+								</select>
+							</div>
+							<div class="form-check__item">
+								<label for="postal-code-1">Postal Code*</label>
+								<input id="postal-code-1" class="form-check__postal-code" tabindex="9" required
+									name="postal-code-1" placeholder="Postal Code" type="number">
+							</div>
+						</div>
+						<div class="form-check__item form-check__item--flex">
+							<label for="phone-1">Phone*</label>
+							<input id="phone-1" class="form-check__phone" tabindex="10" required name="phone-1"
+								placeholder="Phone" type="tel">
+						</div>
+						<div class="form-check__btn btn-check">
+							<button class="btn-check__save" type="submit">Continue to delivery</button>
+						</div>
+						<div class="form-check__checkboxc checkbox-form">
+							<input class="checkbox-form__input" id="check-2" name="delivery-1" type="checkbox">
+							<label class="checkbox-form__label" for="check-2">Save my information for a faster
+								checkout</label>
+						</div>
+					</form>
+				</div>
+				<div class="section-page__container-1">
+					<div class="section-page__shipping shipping-section">
+						<h2 class="shipping-section__title">Shipping Address</h2>
+						<div class="shipping-section__text">Select the address that matches your card or payment method.
+						</div>
+						<form action="#" method="GET" enctype="multipart/form-data"
+							class="shipping-section__form form-shipping">
+							<div class="form-shipping__body">
+								<div class="form-shipping__item">
+									<input class="form-shipping__radio" id="shipping-2" checked name="shipping" type="radio">
+									<label class="form-shipping__lable" for="shipping-2">Same as Billing address</label>
+								</div>
+								<div class="form-shipping__items">
+									<input class="form-shipping__radio" id="shipping-3" name="shipping" type="radio">
+									<label class="form-shipping__lable" for="shipping-3">Use a different shipping
+										address</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="section-page__info info-shipping">
+						<h2 class="info-shipping__title">Shipping Method</h2>
+						<div class="info-shipping__body body-info">
+							<div class="body-info__delivery-date">Arrives by Monday, June 7</div>
+							<div class="body-info__section">
+								<div class="body-info__item item-body">
+									<div class="item-body__title-text">Delivery Charges</div>
+									<div class="item-body__text">Additional fess may apply</div>
+								</div>
+								<div class="body-info__price">$5.00</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-page__payment payment-section">
+						<h2 class="payment-section__title">Payment Method</h2>
+						<div class="payment-section__sub-title">All transactions are secure and encrypted.</div>
+						<form action="#" method="GET" enctype="multipart/form-data"
+							class="payment-section__form form-payment">
+							<div class="form-payment__item">
+								<input class="form-payment__input" id="payment-3" checked name="payment-1" type="radio">
+								<label class="form-payment__lable form-payment__lable--position" for="payment-3">Credit
+									Card</label>
+								<div class="form-payment__sub-lable">We accept all major credit cards.</div>
+							</div>
+							<div class="form-payment__icons-payment">
+								<img src="img/googleplay-icon.svg" alt="icon-googlepay">
+								<img src="img/visa-icon.svg" alt="icon-visa">
+								<img src="img/paypal-icon.svg" alt="icon-paypal">
+								<img src="img/paypass-icon.svg" alt="icon-paypsaa">
+							</div>
+							<div class="form-payment__info info-payment">
+								<div class="info-payment__item">
+									<input class="info-payment__card-number" tabindex="1" required name="card-number"
+										placeholder="Card number" type="number">
+								</div>
+								<div class="info-payment__item">
+									<input class="info-payment__mame-card" tabindex="2" minlength="3" required name="mame-card"
+										placeholder="Name of card" type="text">
+								</div>
+								<div class="info-payment__item">
+									<input class="info-payment__date-card" tabindex="3" minlength="3" required name="date-card"
+										placeholder="Expiration date (MM/YY)" type="text">
+								</div>
+								<div class="info-payment__item">
+									<input class="info-payment__code" tabindex="4" minlength="3" required name="code"
+										placeholder="Security Code" type="password">
+								</div>
+							</div>
+							<div class="form-payment__items">
+								<input class="form-payment__input" id="payment-4" name="payment-1" type="radio">
+								<label class="form-payment__lable form-payment__lable--position-cash" for="payment-4">Cash on
+									delivery</label>
+								<div class="form-payment__sub-lable">Pay with cash upon delivery.</div>
+							</div>
+							<div class="form-payment__paypol">
+								<input class="form-payment__input" id="payment-5" name="payment-1" type="radio">
+								<label class="form-payment__lable form-payment__lable--position-paypol"
+									for="payment-5">Paypol</label>
+							</div>
+						</form>
+						<button class="payment-section__btn" type="submit">Pay Now</button>
+					</div>
+				</div>
+			</div>
+			<div class="page__body body-page">
+				<div class="body-page__container">
+					<div class="body-page__sub-title">Contact Us</div>
+					<h3 class="body-page__title">Request A Call Back !</h3>
+					<form class="form-contact" action="#" method="GET" enctype="multipart/form-data">
+						<div class="form-contact__item">
+							<input class="form-contact__name-3" tabindex="1" minlength="3" name="name-3"
+								placeholder="Your Name" type="text">
+						</div>
+						<div class="form-contact__item">
+							<input class="form-contact__email" tabindex="2" minlength="3" name="email"
+								placeholder="Email Address" type="email">
+						</div>
+						<div class="form-contact__item">
+							<input class="form-contact__number" tabindex="3" minlength="3" name="number"
+								placeholder="Phone Number" type="tel">
+						</div>
+						<div class="form-contact__item">
+							<input class="form-contact__subject" tabindex="4" minlength="3" name="subject"
+								placeholder="Subject" type="text">
+						</div>
+						<div class="form-contact__item">
+							<textarea class="form-contact__textarea" tabindex="5" minlength="3" placeholder="Message..."
+								name="message"></textarea>
+						</div>
+						<button class="form-contact__btn" type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">HomeWork!<br><span>Executed: ZhabchiK AndreW</span></footer>
+	</div>
+</body>
+
+</html>
